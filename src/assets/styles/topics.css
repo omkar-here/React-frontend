@@ -1,0 +1,45 @@
+.topic{
+    display: block;
+    width: 144.0rem;
+    background-color: white;
+}
+.img{
+    width: 5.1rem;
+height: 5.6rem;
+margin-bottom: 2.0rem;
+}
+.tiless_topic{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3,22.6rem);
+    grid-template-rows:repeat(2,14.8rem);
+    grid-column-gap:2.4rem ;
+    grid-row-gap: 2.3rem;
+    justify-content: center;
+    margin-top: 2.3rem;
+}
+.tilee_topic{
+    background: #FFFFFF;
+border: 0.1 solid #D2D2D2;
+/* accentued-drop-shadow */
+
+box-shadow: 0rem 1.3rem 1.9rem rgba(0, 0, 0, 0.07);
+border-radius: .8rem;
+}
+.curriculum{
+    width: 16.8rem;
+height: 1.9rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 1.6rem;
+line-height: 1.9rem;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+position:relative;
+color: #FB5741;
+left:109.8rem;
+top:-4.0rem
+}

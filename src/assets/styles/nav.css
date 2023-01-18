@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+@font-face {
+    font-family: "Sofia";
+    src: url('../fonts/sofiapro-light.otf') format("otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* * {
+    box-sizing: border-box;
+} */
+.out_nav{
+    display: block;
+    background-color: #F9F9F9;
+   
+}
+.main--nav {
+    width: 144rem;
+    display: flex;  
+    font-size: 1.6rem;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+    padding: 0rem 8rem;
+    font-family: Inter;
+}
+
+a {
+    text-decoration: none;
+    color: black;   
+}
+
+.nav-text {
+    display: flex;
+    list-style: none;
+  
+}
+
+.nav-text>li {
+    padding-right: 3.6rem;
+  
+    text-decoration: none;
+}
+.nav-text>li>a:hover {
+   text-decoration: none;
+}
+.iconn {
+    height: 3.639rem;
+    width: 21.1rem;
+}
+
+.button {
+
+    font-weight: 900;
+    color: white;
+    background: #FB614C;
+    border: none;
+    border-radius: .8rem;
+}
+
+.nav--btn {
+    margin-top: 1.8rem;
+    width: 18.1rem;
+    height: 5.4rem;
+    margin-bottom: 1.6rem;
+    transition: all 0.5s;
+    cursor: pointer;
+ 
+}
+.nav--btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+    font-weight: 900;
+    
+  }
+  
+  .nav--btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -2.0rem;
+    transition: 0.5s;
+  }
+  
+  .nav--btn:hover span {
+    padding-right: 2.5rem;
+  }
+  
+  .nav--btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

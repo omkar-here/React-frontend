@@ -1,0 +1,123 @@
+.top_trusted{
+    display: flex;
+}
+.content{
+
+    width: 53.1rem;
+    height: 6.3rem;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 139%;
+    /* or 21rem */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Para - body */
+    
+    color: #555555;
+    
+
+}
+.box{
+    margin-right: 3.2rem;
+}
+.boxes{
+    display: flex;
+    font-family: "Manrope";
+    margin-right: 8.95rem;
+    margin-top:2.75rem;
+}
+.title{
+    font-style: normal;
+font-weight: 700;
+font-size: 2.6rem;
+margin-bottom: 3.2rem;
+/* line-height: 101rem; */
+}
+.small_text{
+    padding-top: .8rem;
+    font-style: normal;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 1.8rem;
+
+
+/* Neutral/400 */
+
+color: #818787;
+}
+.imgs{
+    display: flex;
+}
+.img_1 {
+width: 62.9rem;
+height: 23.1rem;
+background: #000000;
+border-radius: 1.6rem;
+margin-right: 2.4rem;
+margin-top: 3.2rem;
+}
+.img_2{
+width: 62.9rem;
+height: 23.1rem;
+background: #000000;
+border-radius: 1.6rem;
+margin-right: 50.0rem;
+margin-top: 3.2rem;
+}
+.boxes{
+    margin-left: 8.7rem;
+}
+.trusted{
+    display: block;
+    height: 55.0rem;
+    padding: 4.0rem 8.0rem;
+    background: #F4FDF8;
+}
+.carousel-indicators li {
+    width: 1.0rem;
+    height: 1.0rem;
+    border-radius: 100%;
+    background-color: gray;
+  }
+  .indicators{
+    padding-top: 8.5rem;
+    
+  }
+  .carousel-indicators .active{
+    background-color: #f00;
+}
+.carousel {
+        position: relative;
+     }           
+     .carousel-control-prev , .carousel-control-next {
+        position: absolute;
+        top: 90%;
+        transform: TranslateY(-50%);
+        background-color: #f00;
+        opacity: 100%;
+        width: 4.4rem;
+height: 4.4rem;
+
+background: #FB5741;
+box-shadow: -.4rem .4rem 2.0rem rgba(32, 180, 134, 0.12);
+border-radius: .8rem;
+
+
+     }
+     .carousel-control-prev {
+        left: auto;
+        right: 8.0rem;
+     }
+     .carousel-control-next {
+        left: auto;
+        right: 2.0rem;
+     }
+     .same_row{
+        display: inline-flex;
+     }
